@@ -96,7 +96,10 @@ if __name__ == "__main__":
             speak("Opening github")
             webbrowser.open("github.com")
 
-
+        elif "up validation tracker" in query:
+            speak("Opening undelvalidationtracker for uttar pradesh india")
+            webbrowser.open("https://docs.google.com/spreadsheets/d/1Spd8DtzpmOLpDyE0OK-iKw2Wx1sylpCIHW3IvH0f1eg/edit#gid=998157805")
+            # webbrowser.open("amazon.com")
         
          #This query for say the times
         elif 'time' in query:

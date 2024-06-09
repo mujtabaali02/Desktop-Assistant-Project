@@ -71,7 +71,10 @@ if __name__ == "__main__":
     wish_me()
 
     while True:
+
+        print("\n Tracker 1  - UP \n Tracker 2 - RJHR \n Tracker 3 -Upper North \n Tracker 4 - NLNCR \n Tracker 5 -GJMP")  
         query = takeCommand().lower()
+        # print("\nTracker 1  - UP \n Tracker 2 - RJHR \n Tracker 3 -Upper North \n Tracker 4 - NLNCR \n Tracker 5 -GJMP")
 
         if "wikipedia" in query:
             speak("Searching wikipedia")
@@ -96,24 +99,24 @@ if __name__ == "__main__":
             speak("Opening github")
             webbrowser.open("github.com")
 
-        elif "up validation tracker" in query:
+        elif "tracker 1" in query:
             speak("Opening undelvalidationtracker for uttar pradesh Region")
             webbrowser.open("https://docs.google.com/spreadsheets/d/1Spd8DtzpmOLpDyE0OK-iKw2Wx1sylpCIHW3IvH0f1eg/edit#gid=998157805")
             # webbrowser.open("amazon.com")
         
-        elif "RJHR validation tracker" in query:
+        elif "tracker 2" in query:
             speak("Opening undel validation tracker for Rajasthan and Haryana Region")
             webbrowser.open("https://docs.google.com/spreadsheets/d/1NWrZ5THXhWLsxEDyIXLxiYjU6L5Y0CaSPFLC1jVNXkg/edit#gid=1216455963")
         
-        elif "Upper North validation tracker" in query:
+        elif "tracker 3" in query:
             speak("Opening undel validation tracker for Upper North Region")
             webbrowser.open("https://docs.google.com/spreadsheets/d/14rO-QCRlicdLgk4N2yvh9dWCvcgEY42fdFLiYxXICD0/edit#gid=0")
         
-        elif "DLNCR validation tracker" in query:
+        elif "tracker 4" in query:
             speak("Opening undel validation tracker for Delhi NCR...")
             webbrowser.open("https://docs.google.com/spreadsheets/d/1XApzET25dDu-Q7DVn6s2iu4kGJAhydYq2uVW8_ijL4A/edit#gid=0")
         
-        elif "GJMP validation tracker" in query:
+        elif "tracker 5" in query:
             speak("Opening undelvalidationtracker for Gujarat and Madhya Pradesh Region")
             webbrowser.open("https://docs.google.com/spreadsheets/d/1UApdetLHxF5d2qKwyK_v118KvgD5Rc9lYHxCi0OZ_so/edit#gid=0") 
 
